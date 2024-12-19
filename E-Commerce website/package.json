@@ -1,0 +1,28 @@
+{
+  "name": "e-commerce-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --roots backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.1",
+    "nodemailer": "^6.9.16",
+    "stripe": "^17.3.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "mongodb-memory-server": "^10.1.2",
+    "supertest": "^7.0.0"
+  }
+}
